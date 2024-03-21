@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.power4j.example</groupId>
+  <artifactId>dmsdk-dependencies</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>dmsdk-dependencies</name>
+  <description>Library BOM</description>
+  <url>https://github.com/power4j/example-dmsdk/dmsdk-dependencies</url>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>cj</name>
+      <email>power4j@outlook.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/power4j/example-dmsdk.git/dmsdk-dependencies</connection>
+    <developerConnection>scm:git:https://github.com/power4j/example-dmsdk.git/dmsdk-dependencies</developerConnection>
+    <url>https://github.com/power4j/example-dmsdk/dmsdk-dependencies</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.power4j.example</groupId>
+        <artifactId>dmsdk-core</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
